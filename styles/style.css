@@ -80,6 +80,7 @@
     justify-content: center;
     gap:24px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .design1{
@@ -104,6 +105,22 @@
     font-size: 18px;
     margin-top: 30px;
 }
+
+/* this is feature delivery contact info */
+.delivery-container{
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+    padding: 60px;
+    gap: 100px;
+    text-align: center;
+}
+
+
 
 /* this is hot deal section here */
 .hot-deal-container{
