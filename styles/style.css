@@ -10,9 +10,9 @@
     background-color:rgba(229, 84, 115, 0.10);
     height: 84vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px 240px 0px 240px;
 }
 
 .banner-text{
@@ -86,19 +86,19 @@
 
 .design1{
     background-color: rgba(167, 33, 98, 0.15);
-    padding: 20px 50px;
+    padding: 40px 40px 0 40px;
     border-radius: 300px 300px 0px 0px;
 }
 
 .design2{
     background-color: rgba(5, 151, 160, 0.15);
-    padding: 50px;
+    padding: 50px 20px 50px 20px;
     border-radius: 300px 300px 0px 0px;
 }
 
 .design3{
     background-color: rgba(71, 125, 17, 0.15);
-    padding: 0px 50px;
+    padding: 0px 30px 0px 30px;
     border-radius: 300px 300px 0px 0px;
 }
 
@@ -113,11 +113,10 @@
     border-radius: 8px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 65%;
+    justify-content: space-around;
+    width: 58%;
     margin: auto;
     padding: 60px;
-    gap: 100px;
     text-align: center;
 }
 
@@ -259,6 +258,7 @@
     text-align: center;
     padding: 130px;
     margin-top: 130px;
+    height: 450ox;
 }
 
 .footer-text{
