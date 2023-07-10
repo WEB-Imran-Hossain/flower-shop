@@ -8,7 +8,7 @@
 /* this is banner section style here */
 .banner-container{
     background-color:rgba(229, 84, 115, 0.10);
-    height: 100vh;
+    height: 84vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,6 +49,50 @@
     color: #E55473
 }
 
+/* this is featured flower section here */
+.featured-contanier{
+    margin-top: 170px ;
+    text-align: center;
+}
+
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+}
+
+.featured-img-container{
+    color:#272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design1{
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 21px 50px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.design2{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.design3{
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 0px 50px;
+    border-radius: 300px 300px 0px 0px;
+}
+
 /* this is hot deal section here */
 .hot-deal-container{
     background-color: rgba(229, 84, 115, 0.10);
@@ -56,7 +100,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    height: 300px;
+    height: 200px;
     margin-top: 100px;
     padding: 150px;
 }
@@ -128,7 +172,7 @@
     background-image: url("../assets/Rectangle 9.png");
     border-radius: 8px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 62%;
     margin: auto;
     padding: 120px;
 }
@@ -168,6 +212,7 @@
     border-radius: 5px;
     padding: 15px;
     border: none;
+    text-align: center;
 }
 
 /* this is footer section here */
