@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 50px;
 }
 
 .banner-text{
@@ -55,6 +56,10 @@
     text-align: center;
 }
 
+.featured-text{
+    color:#272727;
+    font-size: 40px;
+}
 .featured-description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -73,11 +78,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap:24px;
+    margin-top: 50px;
 }
 
 .design1{
     background-color: rgba(167, 33, 98, 0.15);
-    padding: 21px 50px;
+    padding: 20px 50px;
     border-radius: 300px 300px 0px 0px;
 }
 
@@ -91,6 +98,11 @@
     background-color: rgba(71, 125, 17, 0.15);
     padding: 0px 50px;
     border-radius: 300px 300px 0px 0px;
+}
+
+.text-line{
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 /* this is hot deal section here */
