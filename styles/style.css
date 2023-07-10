@@ -1,0 +1,34 @@
+/* common style css here */
+*{
+    margin: 0;
+    padding: 0;          
+}
+
+/* this is banner section style here */
+.banner-container{
+    background-color:rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-text{
+    color:#272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+}
+
+.banner-btn{
+    background-color: #E55473;
+    color: #fff;
+    border-radius: 8px;
+}
