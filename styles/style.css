@@ -1,7 +1,8 @@
 /* common style css here */
 *{
     margin: 0;
-    padding: 0;          
+    padding: 0;
+    font-family: lato;          
 }
 
 /* this is banner section style here */
@@ -170,3 +171,29 @@
 }
 
 /* this is footer section here */
+.footer-container{
+    background-color: #111010;
+    color: #fff;
+    text-align: center;
+    padding: 130px;
+    margin-top: 130px;
+}
+
+.footer-text{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-info{
+    color: rgba(255, 255, 255, 0.40);;
+}
