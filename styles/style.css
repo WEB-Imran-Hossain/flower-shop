@@ -31,4 +31,9 @@
     background-color: #E55473;
     color: #fff;
     border-radius: 8px;
+    border: none;
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
 }
