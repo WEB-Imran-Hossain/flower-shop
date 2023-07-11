@@ -10,7 +10,7 @@
     background-color:rgba(229, 84, 115, 0.10);
     height: 84vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 50px 240px 0px 240px;
 }
@@ -249,6 +249,42 @@
 .subscribe-btn:hover{
     background-color: #fff;
     color: #E55473;
+}
+
+/* this is blog section here */
+.blog-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.price-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.card-img{
+    border: 1px solid #E55473;;
+}
+
+.card-title{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.price-tag{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
 }
 
 /* this is footer section here */
