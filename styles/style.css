@@ -252,7 +252,7 @@
 }
 
 /* this is blog section here */
-.blog-title{
+.price-title{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -270,7 +270,12 @@
 }
 
 .card-img{
-    border: 1px solid #E55473;;
+    border: 2px solid gray;
+    transition: all 0.3s;
+}
+
+.card-img:hover{
+    border: 2px solid #E55473;
 }
 
 .card-title{
@@ -285,6 +290,7 @@
     font-size: 18px;
     font-weight: 800;
     text-align: center;
+    margin-top: 5px;
 }
 
 /* this is footer section here */
