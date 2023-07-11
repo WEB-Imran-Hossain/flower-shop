@@ -42,13 +42,6 @@
     font-size: 20px;
     font-weight: 700;
     margin-top: 32px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
-.banner-btn:hover{
-    background-color: #fff;
-    color: #E55473
 }
 
 /* this is featured flower section here */
@@ -120,8 +113,6 @@
     text-align: center;
 }
 
-
-
 /* this is hot deal section here */
 .hot-deal-container{
     background-color: rgba(229, 84, 115, 0.10);
@@ -157,13 +148,6 @@
     font-size: 20px;
     font-weight: 700;
     margin-top: 32px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
-.hot-deal-btn:hover{
-    background-color: #fff;
-    color: #E55473
 }
 
 /* this is instagram section here */
@@ -243,12 +227,6 @@
     padding: 15px;
     border: none;
     text-align: center;
-    cursor: pointer;
-}
-
-.subscribe-btn:hover{
-    background-color: #fff;
-    color: #E55473;
 }
 
 /* this is blog section here */
@@ -272,10 +250,6 @@
 .card-img{
     border: 2px solid gray;
     transition: all 0.3s;
-}
-
-.card-img:hover{
-    border: 2px solid #E55473;
 }
 
 .card-title{
